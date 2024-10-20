@@ -1,0 +1,12 @@
+# Ignorer tous les fichiers .log
+*.log
+
+# Ignorer le dossier env (d'un environnement virtuel Python par exemple)
+env/
+
+# Ignorer les fichiers temporaires spécifiques à l'OS
+.DS_Store
+Thumbs.db
+
+# ignore DB
+./merchex/db.sqlite3
